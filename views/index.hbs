@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+<!-- index.hbs -->
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>ISBN-13</th>
+      <th>Author</th>
+      <th>Average Reviews</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each books}}
+      {{> _bookRow}}
+    {{/each}}
+  </tbody>
+</table>
+
+  </body>
+</html>

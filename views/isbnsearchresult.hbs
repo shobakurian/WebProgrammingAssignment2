@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ISBN Search Result</title>
+</head>
+<body>
+  <h1>ISBN Search Result</h1>
+  <p><strong>ISBN Found:</strong> {{isbn}}</p>
+
+  {{#each books}}
+    <p><strong>Title:</strong> {{this.title}} | <strong>Author:</strong> {{this.author}}</p>
+  {{/each}}
+</body>
+</html>

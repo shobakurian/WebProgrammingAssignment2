@@ -1,0 +1,32 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+/* public/styles.css */
+.highlight {
+    background-color: #ffcccc; /* Change this color as needed */
+  }
+  
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.content {
+    margin: 20px;
+}
+
+/* Add more styles as needed */
